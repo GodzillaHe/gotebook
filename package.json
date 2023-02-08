@@ -1,0 +1,23 @@
+{
+  "name": "gotebook",
+  "version": "1.0.0",
+  "description": "笔记，目前仅关于技术，后续可能也关于生活...就想趁机练一练MD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GodzillaHe/gotebook.git"
+  },
+  "keywords": [
+    "note",
+    "FE"
+  ],
+  "author": "GodzillaHe",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/GodzillaHe/gotebook/issues"
+  },
+  "homepage": "https://github.com/GodzillaHe/gotebook#readme"
+}
