@@ -6,11 +6,11 @@
 
 ```javascript
 function outer() {
-	var a = 1
-	function inner() {
-		console.log(a)
-	}
-	return inner
+  var a = 1
+  function inner() {
+    console.log(a)
+  }
+  return inner
 }
 var b = outer()
 b()  // 1
@@ -44,7 +44,7 @@ V8的运行时环境在执行JS代码之前其实就已经准备好了，这个�
 
 ```javascript
 function foo() {
-	foo()
+  foo()
 }
 foo()//Uncaught RangeError: Maximum call stack size exceeded
 ```
@@ -57,13 +57,13 @@ foo()//Uncaught RangeError: Maximum call stack size exceeded
 
 ```javascript
 function b() {
-	var c = 1
-	console.log(c)
+  var c = 1
+  console.log(c)
 }
 
 function a() {
-	b();
-	console.log(2)
+  b();
+  console.log(2)
 }
 a()
 ```
@@ -166,11 +166,11 @@ vim closure.js
 ```javascript
 // closure.js
 function outer() {
-	var a = 1
-	function inner() {
-		console.log(a)
-	}
-	return inner
+  var a = 1
+  function inner() {
+    console.log(a)
+  }
+  return inner
 }
 var b = outer()
 b()
