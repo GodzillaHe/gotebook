@@ -12,7 +12,11 @@
 
 > 纯学术问题，不知道的还以为是搞科研的。。。
 
-- [从Google V8的角度重识JavaScript](./core/google/google.md)
+- Rust学习笔记（最近更新中）
+  - [Rust学前班准备](./core/rust/readyToRust.md)
+- 前端原理杂记
+  - [从Google V8的角度重识JavaScript](./core/google/google.md)
+  
 
 ### 轮子照抄指南
 
